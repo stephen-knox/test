@@ -1,4 +1,4 @@
-package ca.comany.app.service;
+package ca.company.app.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 
-import ca.comany.app.model.Certificate;
+import ca.company.app.model.Certificate;
 
 @Path("/rest")
 public class CertificateService {

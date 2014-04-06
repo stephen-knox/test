@@ -1,4 +1,4 @@
-package ca.comany.app.model;
+package ca.company.app.model;
 
 import javax.xml.bind.annotation.XmlTransient;
 
