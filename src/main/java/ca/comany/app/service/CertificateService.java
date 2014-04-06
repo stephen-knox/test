@@ -8,10 +8,10 @@ import javax.ws.rs.Produces;
 
 import ca.comany.app.model.Certificate;
 
-@Path("/")
+@Path("/rest")
 public class CertificateService {
 	
-	@Path("certificates")
+	@Path("/certificates")
 	@Produces("application/app+json")
 	public List<Certificate> getAllCertificates(){
 		
