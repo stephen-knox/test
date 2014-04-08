@@ -94,6 +94,12 @@ public class CertificateService {
 			e.printStackTrace();
 		} // represents conectivity with registry s/w  
 		
+		if (datasource == null){
+			System.out.println("Datasource is null");
+		} else{
+			System.out.println("Datasource is NOT null");
+			
+		}
 	    return datasource;
 	}
 	
