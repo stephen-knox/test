@@ -88,7 +88,7 @@ public class CertificateService {
 		try {
 			ic = new InitialContext();
 	        // get DataSoruce obj ref from registry  
-			datasource =(DataSource)ic.lookup("java:jboss/datasources/MysqlDS"); 
+			datasource =(DataSource)ic.lookup("java:jboss/datasources/MySQLDS"); 
 	         //DataSource ds=(DataSource)ic.lookup("java:comp/env/jdbc/MySqlDS");  
 		} catch (NamingException e) {
 			e.printStackTrace();
